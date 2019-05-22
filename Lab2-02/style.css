@@ -1,0 +1,45 @@
+.rainbow {
+  position:relative;
+  width: 500px;
+  height: 400px;
+}
+.rainbow div {
+   position:absolute;
+   top:0;
+   bottom:0;
+   width:100%;
+   right:100%;
+   transform-origin:top;/*set where to start from*/
+}
+.rainbow div:nth-last-child(1) {
+  background:red;
+  transform:skewX(10deg);
+}
+.rainbow div:nth-last-child(2) {
+  background:orange;
+  transform:skewX(20deg);
+}
+.rainbow div:nth-last-child(3) {
+  background:yellow;
+  transform:skewX(30deg);
+}
+.rainbow div:nth-last-child(4) {
+  background:green;
+  transform:skewX(40deg);
+}
+.rainbow div:nth-last-child(5) {
+  background:blue;
+  transform:skewX(50deg);
+}
+.rainbow div:nth-last-child(6) {
+  background:indigo;
+  transform:skewX(60deg);
+}
+.rainbow div:nth-last-child(7) {
+  background:violet;
+  transform:skewX(70deg);
+}
+
+body {
+  margin: 0;
+}

@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>
+			Table
+		</title>
+	</head>
+	
+	<body>
+		<table>
+			<tr height="10%">
+				<th colspan="4">
+					<h1>Write a web page which displays a number of images in a table. 
+						The table should be formatted using a style sheet. 
+						Also when the mouse is over an image, the image should increase opacity with a specific amount. 
+					</h1>
+				</th>
+			</tr>
+			
+			<tr>
+				<td rowspan="3" width="25%"  align="center">
+					<img src="images/CPh86.jpg" alt="dog">
+				</td>
+				<td rowspan="2" colspan="2" align="center">
+					<img src="images/CPh52.jpg" alt="low">
+				</td>
+				
+				<td rowspan="3" width="25%"  align="center">
+					<img src="images/CPh22.jpg" alt="mom">
+				</td>
+			</tr>
+			
+			<tr>
+			</tr>
+			
+			<tr>
+				<td colspan="2" rowspan="2"  align="center">
+					<img src="images/CPh133.jpg" alt="fireworks">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<article>
+						<p>
+						Imaginile sunt puse intr-un tabel cu diferite randuri si coloane.<br><br>
+						
+						body {<br>
+							background-color: white;<br>
+							color: black;<br>
+						}<br><br>
+
+						table {<br>
+							border-collapse: none;<br>
+							width: 100%;<br>
+							height: 100%;<br>
+						}<br><br>
+						
+						th {<br>
+							background-color: #2CAE56;<br>
+						}<br>
+						</p>
+					</article>
+				</td>
+				
+				
+				<td>
+					<article>
+						<p>
+						Iar codul folosit pentru imagini este urmatorul:.<br><br>
+						
+						img {<br>
+							max-width: 80%;<br>
+							height: auto;<br>
+							opacity: 0.7;<br>
+							border-radius: 10%;<br>
+						}<br><br>
+						
+						img:hover {<br>
+							opacity: 1;<br>
+							border-radius: 5%;<br>
+						}<br>
+						</p>
+					</article>
+					
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
